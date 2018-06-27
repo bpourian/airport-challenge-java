@@ -6,4 +6,10 @@ public class Airport {
         plane.land();
         return "Plane has landed";
     }
+
+    public String takeOffPlane(Plane plane)
+    {
+        plane.takeOff();
+        return "Plane in the air";
+    }
 }

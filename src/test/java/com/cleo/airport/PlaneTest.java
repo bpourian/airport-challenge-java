@@ -28,4 +28,11 @@ class PlaneTest {
         plane.land();
         assertEquals("Plane has landed", plane.getStatus());
     }
+
+    @Test
+    void PlaneToTakeOffOnCommand()
+    {
+        plane.takeOff();
+        assertEquals("Plane in the air", plane.getStatus());
+    }
 }

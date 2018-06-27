@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4291783-b666-43ef-9665-a500481fcef6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cleo/airport/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleo/airport/PlaneTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,12 +23,14 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Plane.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="133">
-                  <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+                  <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
                   <folding>
                     <element signature="e#100#101#0" expanded="true" />
-                    <element signature="e#131#132#0" expanded="true" />
+                    <element signature="e#148#149#0" expanded="true" />
                     <element signature="e#170#171#0" expanded="true" />
                     <element signature="e#203#204#0" expanded="true" />
+                    <element signature="e#243#244#0" expanded="true" />
+                    <element signature="e#274#275#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -35,8 +39,8 @@
           <file leaf-file-name="Airport.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="240">
+                  <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -48,11 +52,10 @@
           <file leaf-file-name="PlaneTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/PlaneTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+                <state relative-caret-position="442">
+                  <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#PlaneToLandAndHaveStatusLanded#0;class#PlaneTest#0" />
                   </folding>
                 </state>
               </provider>
@@ -61,12 +64,14 @@
           <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+                <state relative-caret-position="460">
+                  <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#563#564#0" expanded="true" />
                     <element signature="e#620#621#0" expanded="true" />
+                    <element signature="e#841#842#0" expanded="true" />
+                    <element signature="e#861#862#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -76,7 +81,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="528">
+                  <first_editor relative-caret-position="795">
                     <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
                   </first_editor>
                   <second_editor />
@@ -254,6 +259,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AirportTest.AirportToInstructTakeOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="airport-challenge-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleo.airport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cleo.airport" />
+      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
+      <option name="METHOD_NAME" value="AirportToInstructTakeOff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="PlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airport-challenge-java" />
       <extension name="coverage">
@@ -277,7 +305,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PlaneTest.PlaneToCreateInstanceOfPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaneTest.PlaneToTakeOffOnCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airport-challenge-java" />
       <extension name="coverage">
         <pattern>
@@ -289,30 +317,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cleo.airport" />
       <option name="MAIN_CLASS_NAME" value="com.cleo.airport.PlaneTest" />
-      <option name="METHOD_NAME" value="PlaneToCreateInstanceOfPlane" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PlaneTest.PlaneToLandAndHaveStatusLanded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="airport-challenge-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cleo.airport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cleo.airport" />
-      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.PlaneTest" />
-      <option name="METHOD_NAME" value="PlaneToLandAndHaveStatusLanded" />
+      <option name="METHOD_NAME" value="PlaneToTakeOffOnCommand" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -363,18 +368,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PlaneTest" />
-      <item itemvalue="JUnit.PlaneTest.PlaneToCreateInstanceOfPlane" />
       <item itemvalue="JUnit.AirportTest.AirportToInstructAPlaneToLand" />
-      <item itemvalue="JUnit.PlaneTest.PlaneToLandAndHaveStatusLanded" />
       <item itemvalue="JUnit.AirportTest" />
+      <item itemvalue="JUnit.PlaneTest.PlaneToTakeOffOnCommand" />
+      <item itemvalue="JUnit.AirportTest.AirportToInstructTakeOff" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AirportTest" />
+        <item itemvalue="JUnit.AirportTest.AirportToInstructTakeOff" />
+        <item itemvalue="JUnit.PlaneTest.PlaneToTakeOffOnCommand" />
         <item itemvalue="JUnit.AirportTest.AirportToInstructAPlaneToLand" />
         <item itemvalue="JUnit.PlaneTest" />
-        <item itemvalue="JUnit.PlaneTest.PlaneToCreateInstanceOfPlane" />
-        <item itemvalue="JUnit.PlaneTest.PlaneToLandAndHaveStatusLanded" />
       </list>
     </recent_temporary>
   </component>
@@ -415,6 +420,9 @@
     </history-entry>
     <history-entry file="AirportTest - 2018.06.27 at 07h 00m 04s.xml">
       <configuration name="AirportTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaneTest_PlaneToTakeOffOnCommand - 2018.06.27 at 07h 15m 56s.xml">
+      <configuration name="PlaneTest.PlaneToTakeOffOnCommand" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -513,7 +521,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
+          <first_editor relative-caret-position="795">
             <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           </first_editor>
           <second_editor />
@@ -522,11 +530,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/PlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#PlaneToLandAndHaveStatusLanded#0;class#PlaneTest#0" />
           </folding>
         </state>
       </provider>
@@ -534,32 +541,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>

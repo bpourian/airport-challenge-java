@@ -33,4 +33,10 @@ public class AirportTest {
     {
         assertEquals("Plane has landed", airport.landPlane(planeMock));
     }
+
+    @Test
+    void AirportToInstructTakeOff()
+    {
+        assertEquals("Plane in the air", airport.takeOffPlane(planeMock));
+    }
 }

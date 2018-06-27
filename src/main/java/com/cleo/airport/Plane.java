@@ -11,4 +11,8 @@ public class Plane {
     public String getStatus(){
         return this.status;
     }
+
+    public void takeOff() {
+        this.status = "Plane in the air";
+    }
 }
