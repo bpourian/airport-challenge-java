@@ -1,6 +1,14 @@
 package com.cleo.airport;
 
 public class Airport {
+
+    Weather weather;
+
+    public Airport(Weather weather)
+    {
+        this.weather = weather;
+    }
+
     public String landPlane(Plane plane)
     {
         plane.land();
@@ -11,5 +19,9 @@ public class Airport {
     {
         plane.takeOff();
         return "Plane in the air";
+    }
+
+    public boolean isStormy() {
+        return this.weather.stormy();
     }
 }

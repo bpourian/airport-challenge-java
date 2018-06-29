@@ -1,4 +1,16 @@
 package com.cleo.airport;
 
-public class Weather {
+import java.util.Random;
+
+class Weather {
+
+    private Random random;
+
+    public Weather(final Random random){
+        this.random = random;
+    }
+
+    public boolean stormy() {
+        return this.random.nextBoolean();
+    }
 }
