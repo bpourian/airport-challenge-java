@@ -44,7 +44,17 @@ public class AirportTest {
     @Test
     void AirportToInstructTakeOff()
     {
+        when(mockWeather.isStormy()).thenReturn(false);
+
         assertEquals("Plane in the air", airport.takeOffPlane(planeMock));
+    }
+
+    @Test
+    void AirportToNotPermitTakeOffDueToStorm()
+    {
+        when(mockWeather.isStormy()).thenReturn(true);
+
+        assertEquals("Plane unable to take-off due to storm", airport.takeOffPlane(planeMock));
     }
 
     @Test

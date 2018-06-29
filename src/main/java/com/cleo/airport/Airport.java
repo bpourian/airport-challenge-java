@@ -17,8 +17,14 @@ public class Airport {
 
     public String takeOffPlane(Plane plane)
     {
-        plane.takeOff();
-        return "Plane in the air";
+
+        if (this.isStormy() == false) {
+            plane.takeOff();
+            return "Plane in the air";
+        } if (this.isStormy() == true) {
+            return "Plane unable to take-off due to storm";
+        } else return "Unable to access weather information";
+
     }
 
     public boolean isStormy() {
