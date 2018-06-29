@@ -3,6 +3,7 @@ package com.cleo.airport;
 public class Airport {
 
     Weather weather;
+    private int defaultHangarSpaces = 20;
 
     public Airport(Weather weather)
     {
@@ -35,4 +36,16 @@ public class Airport {
     public boolean isStormy() {
         return this.weather.isStormy();
     }
+
+    public int getHangarSpaces()
+    {
+        return defaultHangarSpaces;
+    }
+
+    public void setHangarSpaces(int spaces)
+    {
+        this.defaultHangarSpaces = spaces;
+    }
+
+
 }

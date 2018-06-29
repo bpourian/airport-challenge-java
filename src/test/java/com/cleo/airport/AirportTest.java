@@ -83,4 +83,17 @@ public class AirportTest {
         assertEquals(false, airport.isStormy());
     }
 
+    @Test
+    void AirportToHaveDefaultHangarCapacity()
+    {
+        assertEquals(20, airport.getHangarSpaces());
+    }
+
+    @Test
+    void AirportToResetDefaultHangarSpaces()
+    {
+        airport.setHangarSpaces(30);
+        assertEquals(30, airport.getHangarSpaces());
+    }
+
 }
