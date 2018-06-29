@@ -11,8 +11,13 @@ public class Airport {
 
     public String landPlane(Plane plane)
     {
-        plane.land();
-        return "Plane has landed";
+        if (this.isStormy() == false) {
+            plane.land();
+            return "Plane has landed";
+        }
+        if (this.isStormy() == true) {
+            return "Unable to land due to storm";
+        } else return "Unable to access weather information";
     }
 
     public String takeOffPlane(Plane plane)
