@@ -9,6 +9,7 @@ import org.mockito.MockitoAnnotations;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.when;
 
 
@@ -96,4 +97,22 @@ public class AirportTest {
         assertEquals(30, airport.getHangarSpaces());
     }
 
+    @Test
+    void AirportToAddPlanesToHangarWhenLanded()
+    {
+        airport.storePlane(planeMock);
+        assertEquals(planeMock, airport.hangarArrayList.get(0));
+    }
+
+    @Test
+    void AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity()
+    {
+        for (int i = 1; i < airport.getHangarSpaces(); i++) {
+            airport.storePlane(planeMock);
+        }
+
+        RuntimeException exception = assertThrows(RuntimeException.class, () -> airport.storePlane(planeMock));
+        assertEquals("Unable to add plane, Hangar full!", exception.getMessage());
+    }
+    
 }

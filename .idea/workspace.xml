@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4291783-b666-43ef-9665-a500481fcef6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport-challenge-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/airport-challenge-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cleo/airport/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cleo/airport/Airport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cleo/airport/AirportTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cleo/airport/AirportTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +43,9 @@
           <file leaf-file-name="Airport.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+                <state relative-caret-position="180">
+                  <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
                   <folding>
-                    <element signature="e#121#122#0" expanded="true" />
-                    <element signature="e#158#159#0" expanded="true" />
                     <element signature="e#412#413#0" expanded="true" />
                     <element signature="e#458#459#0" expanded="true" />
                     <element signature="e#966#967#0" expanded="true" />
@@ -88,8 +91,8 @@
           <file leaf-file-name="AirportTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+                <state relative-caret-position="502">
+                  <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#init#0;class#AirportTest#0" />
@@ -99,8 +102,7 @@
                     <element signature="method#AirportToNotPermitTakeOffDueToStorm#0;class#AirportTest#0" />
                     <element signature="method#AirportToConfirmWeatherIsStormy#0;class#AirportTest#0" />
                     <element signature="method#AirportToConfirmWeatherIsNotStormy#0;class#AirportTest#0" />
-                    <element signature="e#2031#2032#0" expanded="true" />
-                    <element signature="e#2086#2087#0" expanded="true" />
+                    <element signature="method#AiportToResetDefaultHangarSpaces#0;class#AirportTest#0" />
                   </folding>
                 </state>
               </provider>
@@ -155,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cleo/airport/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cleo/airport/Weather.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cleo/airport/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java" />
       </list>
     </option>
   </component>
@@ -282,6 +284,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="airport-challenge-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleo.airport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cleo.airport" />
+      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
+      <option name="METHOD_NAME" value="AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AirportTest.AirportToAddPlanesToHangarWhenLanded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="airport-challenge-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleo.airport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cleo.airport" />
+      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
+      <option name="METHOD_NAME" value="AirportToAddPlanesToHangarWhenLanded" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="AirportTest.AirportToHaveDefaultHangarCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airport-challenge-java" />
       <extension name="coverage">
@@ -305,7 +353,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AirportTest.AirportToInstructTakeOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirportTest.AirportToStorePlanesInHangar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airport-challenge-java" />
       <extension name="coverage">
         <pattern>
@@ -317,53 +365,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cleo.airport" />
       <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
-      <option name="METHOD_NAME" value="AirportToInstructTakeOff" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AirportTest.AirportToPreventLandingAsWeatherStormy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="airport-challenge-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cleo.airport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cleo.airport" />
-      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
-      <option name="METHOD_NAME" value="AirportToPreventLandingAsWeatherStormy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AirportTest.AirportToResetDefaultHangarSpaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="airport-challenge-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cleo.airport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cleo.airport" />
-      <option name="MAIN_CLASS_NAME" value="com.cleo.airport.AirportTest" />
-      <option name="METHOD_NAME" value="AirportToResetDefaultHangarSpaces" />
+      <option name="METHOD_NAME" value="AirportToStorePlanesInHangar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -438,18 +440,18 @@
     <list>
       <item itemvalue="JUnit.PlaneTest" />
       <item itemvalue="JUnit.AirportTest" />
-      <item itemvalue="JUnit.AirportTest.AirportToInstructTakeOff" />
-      <item itemvalue="JUnit.AirportTest.AirportToPreventLandingAsWeatherStormy" />
       <item itemvalue="JUnit.AirportTest.AirportToHaveDefaultHangarCapacity" />
-      <item itemvalue="JUnit.AirportTest.AirportToResetDefaultHangarSpaces" />
+      <item itemvalue="JUnit.AirportTest.AirportToStorePlanesInHangar" />
+      <item itemvalue="JUnit.AirportTest.AirportToAddPlanesToHangarWhenLanded" />
+      <item itemvalue="JUnit.AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AirportTest" />
-        <item itemvalue="JUnit.AirportTest.AirportToResetDefaultHangarSpaces" />
+        <item itemvalue="JUnit.AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" />
+        <item itemvalue="JUnit.AirportTest.AirportToAddPlanesToHangarWhenLanded" />
         <item itemvalue="JUnit.AirportTest.AirportToHaveDefaultHangarCapacity" />
-        <item itemvalue="JUnit.AirportTest.AirportToPreventLandingAsWeatherStormy" />
-        <item itemvalue="JUnit.AirportTest.AirportToInstructTakeOff" />
+        <item itemvalue="JUnit.AirportTest.AirportToStorePlanesInHangar" />
       </list>
     </recent_temporary>
   </component>
@@ -467,35 +469,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AirportTest - 2018.06.29 at 06h 58m 38s.xml">
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 26m 44s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 41m 56s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 42m 28s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 42m 39s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 44m 01s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 44m 19s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 44m 38s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 45m 08s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AirportTest - 2018.06.29 at 08h 48m 24s.xml">
       <configuration name="AirportTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_AirportToInstructTakeOff - 2018.06.29 at 06h 58m 55s.xml">
-      <configuration name="AirportTest.AirportToInstructTakeOff" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest - 2018.06.29 at 06h 59m 13s.xml">
-      <configuration name="AirportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlaneTest - 2018.06.29 at 06h 59m 33s.xml">
-      <configuration name="PlaneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest_AirportToPreventLandingAsWeatherStormy - 2018.06.29 at 07h 21m 44s.xml">
-      <configuration name="AirportTest.AirportToPreventLandingAsWeatherStormy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest - 2018.06.29 at 07h 24m 41s.xml">
-      <configuration name="AirportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest - 2018.06.29 at 07h 24m 50s.xml">
-      <configuration name="AirportTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest_AirportToPreventLandingAsWeatherStormy - 2018.06.29 at 07h 25m 26s.xml">
-      <configuration name="AirportTest.AirportToPreventLandingAsWeatherStormy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest_AirportToHaveDefaultHangarCapacity - 2018.06.29 at 07h 56m 55s.xml">
-      <configuration name="AirportTest.AirportToHaveDefaultHangarCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AirportTest_AirportToHaveDefaultHangarCapacity - 2018.06.29 at 07h 59m 58s.xml">
-      <configuration name="AirportTest.AirportToHaveDefaultHangarCapacity" configurationId="JUnit" />
+    <history-entry file="AirportTest_AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity - 2018.06.29 at 08h 49m 14s.xml">
+      <configuration name="AirportTest.AirportStorePlaneToRaiseErrorIfHangarCapacityExceedsDefaultCapacity" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -563,7 +565,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -662,8 +664,6 @@
         <state relative-caret-position="76">
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
             <element signature="e#412#413#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
             <element signature="e#966#967#0" expanded="true" />
@@ -687,8 +687,7 @@
             <element signature="method#AirportToNotPermitTakeOffDueToStorm#0;class#AirportTest#0" />
             <element signature="method#AirportToConfirmWeatherIsStormy#0;class#AirportTest#0" />
             <element signature="method#AirportToConfirmWeatherIsNotStormy#0;class#AirportTest#0" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="method#AiportToResetDefaultHangarSpaces#0;class#AirportTest#0" />
           </folding>
         </state>
       </provider>
@@ -749,6 +748,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="795">
+            <caret line="53" selection-start-line="53" selection-end-line="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/PlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -770,20 +779,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="795">
-            <caret line="53" selection-start-line="53" selection-end-line="53" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/airport/AirportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        <state relative-caret-position="502">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#init#0;class#AirportTest#0" />
@@ -793,25 +807,7 @@
             <element signature="method#AirportToNotPermitTakeOffDueToStorm#0;class#AirportTest#0" />
             <element signature="method#AirportToConfirmWeatherIsStormy#0;class#AirportTest#0" />
             <element signature="method#AirportToConfirmWeatherIsNotStormy#0;class#AirportTest#0" />
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/airport/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="method#AiportToResetDefaultHangarSpaces#0;class#AirportTest#0" />
           </folding>
         </state>
       </provider>

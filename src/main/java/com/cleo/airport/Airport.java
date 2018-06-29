@@ -1,13 +1,17 @@
 package com.cleo.airport;
 
+import java.util.ArrayList;
+
 public class Airport {
 
     Weather weather;
     private int defaultHangarSpaces = 20;
+    public ArrayList <Plane> hangarArrayList;
 
     public Airport(Weather weather)
     {
         this.weather = weather;
+        hangarArrayList = new ArrayList<Plane>(defaultHangarSpaces);
     }
 
     public String landPlane(Plane plane)
@@ -45,6 +49,17 @@ public class Airport {
     public void setHangarSpaces(int spaces)
     {
         this.defaultHangarSpaces = spaces;
+    }
+
+    public void storePlane(Plane plane)
+    {
+        if (defaultHangarSpaces > hangarArrayList.size()) {
+            this.hangarArrayList.add(plane);
+        }
+        if (defaultHangarSpaces == hangarArrayList.size()) {
+            throw new RuntimeException("Unable to add plane, Hangar full!");
+        }
+
     }
 
 
