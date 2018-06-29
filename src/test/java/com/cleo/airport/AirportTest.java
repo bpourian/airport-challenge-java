@@ -50,7 +50,7 @@ public class AirportTest {
     @Test
     void AirportToConfirmWeatherIsStormy()
     {
-        when(mockWeather.stormy()).thenReturn(true);
+        when(mockWeather.isStormy()).thenReturn(true);
 
         assertEquals(true, airport.isStormy());
     }
@@ -58,7 +58,7 @@ public class AirportTest {
     @Test
     void AirportToConfirmWeatherIsNotStormy()
     {
-        when(mockWeather.stormy()).thenReturn(false);
+        when(mockWeather.isStormy()).thenReturn(false);
 
         assertEquals(false, airport.isStormy());
     }

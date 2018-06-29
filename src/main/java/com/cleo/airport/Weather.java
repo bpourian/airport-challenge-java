@@ -10,7 +10,7 @@ class Weather {
         this.random = random;
     }
 
-    public boolean stormy() {
+    public boolean isStormy() {
         return this.random.nextBoolean();
     }
 }

@@ -42,6 +42,6 @@ public class WeatherTest {
         mockWeather = new Weather(mockRandom);
         when(mockRandom.nextBoolean()).thenReturn(true);
 
-        assertEquals(true, mockWeather.stormy());
+        assertEquals(true, mockWeather.isStormy());
     }
 }

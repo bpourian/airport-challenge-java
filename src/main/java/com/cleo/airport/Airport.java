@@ -22,6 +22,6 @@ public class Airport {
     }
 
     public boolean isStormy() {
-        return this.weather.stormy();
+        return this.weather.isStormy();
     }
 }
