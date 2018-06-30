@@ -114,5 +114,5 @@ public class AirportTest {
         RuntimeException exception = assertThrows(RuntimeException.class, () -> airport.storePlane(planeMock));
         assertEquals("Unable to add plane, Hangar full!", exception.getMessage());
     }
-    
+
 }
